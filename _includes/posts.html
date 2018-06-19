@@ -1,0 +1,26 @@
+
+<ol>
+  {% for collection in page.collections %}
+    <li>
+      <h3><time datetime="{{ collection.year }}">{{ collection.year }}</time></h3>
+      
+      <ul>
+        {% assign items = collection.posts | sort: 'date' | reverse %}
+        {% for post in items %}
+          <li class="post">
+          <a href="{{ post.link }}" rel="noopener">
+            {{ post.title }}
+          </a>
+          <span>
+          on <time datetime="{{ post.date }}">{{ post.date | date: '%B %d' }}</time>
+          by
+          {% assign author = site.data.authors[post.author] %}
+          <a href="{{ author.url }}" class="author" rel="noopener">{{ author.name }}</a>
+          {% if post.language %} ({{ post.language }}){% endif %}
+          </span>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ol>

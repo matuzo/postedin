@@ -1,0 +1,23 @@
+<h1><span>{{ site.title }}</span> <span aria-hidden="true">_____</span> </h1>
+
+<p>A list of web design and web development related articles by people from all over the world. Find out what people from your hometown or any other city are writing about.</p>
+
+<form action="#" role="search">
+  <p>
+    Show me articles posted in 
+    <label for="country" class="visually-hidden">Country</label>
+    <select name="" id="country" class="js-countries">
+    {% assign countries = site.places | group_by: "country" %}
+    {% for country in countries %}
+      <option value="{{ country.name| slugify }}">{{ country.name}}</option>
+    {% endfor %}
+    </select>,  
+    <label for="city" class="visually-hidden">City</label>
+
+    <select name="" id="city" class="js-cities">
+      {% for city in site.places %}
+        <option data-country="{{ city.country| slugify}}" value="{{ city.title |slugify }}">{{ city.title }}</option>
+      {% endfor %}
+    </select>!
+  </p>
+</form>
