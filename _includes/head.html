@@ -5,6 +5,8 @@
   <title>{{ site.title }}</title>
 
   <meta name="description" content="{{ site.description }}" />
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  {% if jekyll.environment != 'development' %}
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  {% endif %}
   <link rel="stylesheet" href="style.css" />
 </head>
