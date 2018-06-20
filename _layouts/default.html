@@ -11,13 +11,7 @@
     {%- include footer.html -%}
     
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    {% comment %} Hideous, I know {% endcomment %}
-    {% if jekyll.environment == 'development' %}
-      <script>var site_root = '';</script>
-      <script src="main.js"></script>
-    {% else %}
-      <script>var site_root = '//matuzo.github.io/postedin';</script>
-      <script src="main.js"></script>
-    {% endif %}
+    <script>var site_root = 'https://matuzo.github.io/postedin';</script>
+    <script src="main.js"></script>
   </body>
 </html>

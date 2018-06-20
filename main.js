@@ -11,6 +11,8 @@ function getPageContent(e) {
   var page_content = document.querySelector('.js-page-content');
   var resp = '';
 
+  console.log(url)
+
   axios.get(url)
   .then(function (response) {
     resp = response.data;
