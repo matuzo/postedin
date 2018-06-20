@@ -44,6 +44,22 @@ collections:
         link: https://www.zeichenschatz.net/typografie/how-to-use-quotes-and-dashes-in-russian-typography.html
         date: 2018-06-15
         author: oliverschoendorfer
+  - year: "2017"
+    posts:
+      - title: "Card Studio – Design Systeme in der Praxis strukturieren"
+        link: https://www.produktbezogen.de/card-studio/
+        date: 2017-10-18
+        author: bjoernganslandt
+  - year: "2016"
+    posts:
+      - title: "Wenn Pattern Libraries wachsen – Wie man Verantwortung und Code für Patterns im Unternehmen verteilt"
+        link: https://www.produktbezogen.de/wenn-pattern-libraries-wachsen-verantwortung/
+        date: 2016-10-11
+        author: bjoernganslandt
+      - title: "Beyond the grid — what’s next for responsive?"
+        link: https://medium.com/@Ansimorph/beyond-the-grid-what-s-next-for-responsive-697c6e12fd50
+        date: 2016-02-17
+        author: bjoernganslandt
 ---
 
 ## {{ page.title }}
