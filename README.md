@@ -1,6 +1,6 @@
 # postedin _____
 
-A list of web design and web development related articles by people from all over the world.
+A list of web design and web development related articles by people from all over the world. Find out what people from your hometown or any other city are writing about.
 
 ## Contributing
 
@@ -19,7 +19,7 @@ There are 3 ways how you can contribute.
   Date of publication
 3. Send me a DM on [Twitter](http://twitter.com/mmatuzo) with the data above.
 
-### Add authors and cities yourself
+### Adding authors and cities
 
 1. Fork the repo
 2. Add an author in `_data/authors.yaml` if they don't exist yet.
@@ -41,6 +41,7 @@ There are 3 ways how you can contribute.
 ```
 - title: TITLE
   link: URL
+  language: LANGUAGE (Only if other than English)
   date: YYYY-MM-DD
   author: [AUTHORID] (copied form `_data/authors.yaml`)
 ```
@@ -63,4 +64,16 @@ collections:
 ## {{ page.title }}
 
 {%- include posts.html -%}
+```
+
+### Running postedin locally
+
+1. Install jekyll
+```
+gem install bundler jekyll
+```
+
+2. Run 
+```
+bundle exec jekyll serve
 ```
