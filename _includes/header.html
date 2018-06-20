@@ -1,10 +1,10 @@
-<h1><span>{{ site.title }}</span> <span aria-hidden="true">_____</span> </h1>
+<h1 class="logo"><span class="logo__inner">{{ site.title }}</span> <span aria-hidden="true">_____</span> </h1>
 
 <p>A list of web design and web development related articles by people from all over the world. Find out what people from your hometown or any other city are writing about.</p>
 
 <form action="#" role="search">
   <p>
-    Show me articles posted in 
+    <span class="filter__label">Show me articles posted in</span>
     <label for="country" class="visually-hidden">Country</label>
     <select name="" id="country" class="js-countries">
     {% assign countries = site.places | group_by: "country" %}
