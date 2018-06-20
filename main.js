@@ -7,7 +7,7 @@ var city = cities.querySelectorAll('option');
 function getPageContent(e) {
   var request = new XMLHttpRequest();
   var selected_city = e ? e.target.value : document.querySelectorAll('[data-country="' + selected_country + '"]')[0].value;
-  var url = site_root + '/' + selected_country + '/' + selected_city;
+  var url = site_root + '/' + selected_country + '/' + selected_city + '/';
   var page_content = document.querySelector('.js-page-content');
   var resp = '';
 
