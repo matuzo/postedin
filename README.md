@@ -2,7 +2,7 @@
 
 <http://matuzo.github.io/postedin/>
 
-A list of web design and web development related articles by people from all over the world. Find out what people from your hometown or any other city are writing about.
+A curated list of web design, web development, accessibility, usability and UX related articles by people from all over the world. Find out what people from your hometown or any other city are writing about.
 
 ## Contributing
 
@@ -73,9 +73,10 @@ collections:
 1. Install jekyll
 ```
 gem install bundler jekyll
+bundle install
 ```
 
-2. Run 
+2. Run jekyll
 ```
 bundle exec jekyll serve
 ```

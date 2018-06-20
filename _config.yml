@@ -16,7 +16,7 @@
 title: postedin
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A list of web design and web development related articles by people from all over the world.
+  A curated list of web design, web development, accessibility, usability and UX related articles by people from all over the world.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://matuzo.github.io/postedin/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mmatuzo
