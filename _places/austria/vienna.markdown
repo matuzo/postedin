@@ -96,7 +96,7 @@ collections:
         link: https://uxdesign.cc/i-totally-forgot-about-print-style-sheets-f1e6604cfd6
         date: 2016-11-15
         author: manuelmatuzovic
-   - year: "2015"
+  - year: "2015"
     posts:     
       - title: "`flex-grow` is weird. Or is it?"
         link: https://css-tricks.com/flex-grow-is-weird/
