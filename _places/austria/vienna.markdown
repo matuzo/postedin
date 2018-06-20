@@ -28,6 +28,22 @@ collections:
         link: https://alistapart.com/article/my-accessibility-journey-what-ive-learned-so-far
         date: 2018-02-06
         author: manuelmatuzovic
+
+      - title: "Wie man als Speaker auf Konferenzen startet, Teil 2 – Vortrag, die Hürde Englisch und das Fazit"
+        language: "German"
+        link: https://www.zeichenschatz.net/persoenliches/wie-man-als-speaker-auf-konferenzen-startet-teil-2-vortrag-die-huerde-englisch-und-das-fazit.html
+        date: 2018-01-08
+        author: oliverschoendorfer
+
+      - title: "How to start with variable fonts on the web"
+        link: https://www.zeichenschatz.net/typografie/how-to-start-with-variable-fonts-on-the-web.html
+        date: 2018-05-28
+        author: oliverschoendorfer
+
+      - title: "How to use Quotes and Dashes in Russian Typography"
+        link: https://www.zeichenschatz.net/typografie/how-to-use-quotes-and-dashes-in-russian-typography.html
+        date: 2018-06-15
+        author: oliverschoendorfer
 ---
 
 ## {{ page.title }}
