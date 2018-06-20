@@ -9,8 +9,9 @@
       {{ content }}
     </main>
     {%- include footer.html -%}
-
-    {# Hideous, I know #}
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    {% comment %} Hideous, I know {% endcomment %}
     {% if jekyll.environment == 'development' %}
       <script>var site_root = '';</script>
       <script src="main.js"></script>
