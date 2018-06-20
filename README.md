@@ -1,5 +1,7 @@
 # postedin _____
 
+<http://matuzo.github.io/postedin/>
+
 A list of web design and web development related articles by people from all over the world. Find out what people from your hometown or any other city are writing about.
 
 ## Contributing
@@ -50,15 +52,15 @@ There are 3 ways how you can contribute.
 
 ```
 ---
-title: "Berlin"
-country: "Germany"
+title: "Vienna"
+country: "Austria"
 collections:
   - year: "2018"
     posts:
-      - title: Faster static site builds Part 1- Process only what you need
-        link: https://www.stefanjudis.com/blog/faster-static-site-builds-part-1-process-only-what-you-need/
-        date: 2018-05-17
-        author: stefanjudis
+      - title: "My Accessibility Journey: What I’ve Learned So Far"
+        link: https://alistapart.com/article/my-accessibility-journey-what-ive-learned-so-far
+        date: 2018-02-06
+        author: manuelmatuzovic
 ---
 
 ## {{ page.title }}
