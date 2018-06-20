@@ -1,6 +1,6 @@
 lisilinhart:
     name: "Lisi Linhart"
-    url: "http://lisilinhart.info"
+    url: "https://lisilinhart.info"
 manuelmatuzovic:
     name: "Manuel Matuzovic"
     url: "https://twitter.com/mmatuzo"
@@ -10,6 +10,12 @@ manuelwieser:
 maxboeck:
     name: "Max Böck"
     url: "https://mxb.at/"
+oliverschoendorfer:
+    name: "Oliver Schöndorfer"
+    url: "https://www.zeichenschatz.net/"
+stefanbaumgartner:
+    name: "Stefan Baumgartner"
+    url: "https://fettblog.eu/"
 stefanjudis:
     name: "Stefan Judis"
     url: "https://www.stefanjudis.com"
