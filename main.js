@@ -11,17 +11,22 @@ function getPageContent(e) {
   var page_content = document.querySelector('.js-page-content');
   var resp = '';
 
-  console.log(url)
+  request.open('GET', url, true);
 
-  axios.get(url)
-  .then(function (response) {
-    resp = response.data;
+  request.onload = function() {
+    if (this.status >= 200 && this.status < 400) {
+      resp = this.response;
+    } else {
+      resp = 'Sorry, there\'s no data associated with this city :(';
+    }
     page_content.innerHTML = resp;
+  };
 
-  })
-  .catch(function (error) {
-    page_content.innerHTML = 'Sorry, there\'s no data associated with this city :(';
-  });
+  request.onerror = function() {
+    page_content.innerHTML = 'For some reason I couldn\'t connect to the server, please try later again.';
+  };
+
+  request.send();
 }
 
 function updateCities() {
