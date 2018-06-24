@@ -44,6 +44,51 @@ collections:
         link: https://fettblog.eu/typescript-substitutability/
         date: 2018-03-16
         author: stefanbaumgartner
+
+      - title: "How to Structure a Complex Vuex Store"
+        link: https://markus.oberlehner.net/blog/how-to-structure-a-complex-vuex-store/
+        date: 2018-02-04
+        author: markusoberlehner
+
+      - title: "Visual Regression Testing with Nightwatch.js and Cucumber.js"
+        link: https://markus.oberlehner.net/blog/visual-regression-testing-with-nightwatch-and-cucumber/
+        date: 2018-04-22
+        author: markusoberlehner
+
+      - title: "Building Custom Multi-Option Form Components with Vue.js"
+        link: https://markus.oberlehner.net/blog/building-custom-multi-option-form-components-with-vue/
+        date: 2018-05-06
+        author: markusoberlehner
+
+      - title: "Goodbye webpack: Building Vue.js Applications Without webpack"
+        link: https://markus.oberlehner.net/blog/goodbye-webpack-building-vue-applications-without-webpack/
+        date: 2018-05-13
+        author: markusoberlehner
+
+      - title: "Building Renderless Components to Handle CRUD Operations in Vue.js"
+        link: https://markus.oberlehner.net/blog/building-renderless-components-to-handle-crud-operations-in-vue/
+        date: 2018-05-21
+        author: markusoberlehner
+
+      - title: "Should I Store This Data in Vuex?"
+        link: https://markus.oberlehner.net/blog/should-i-store-this-data-in-vuex/
+        date: 2018-05-27
+        author: markusoberlehner
+
+      - title: "Vue Router Page Transitions"
+        link: https://markus.oberlehner.net/blog/vue-router-page-transitions/
+        date: 2018-06-10
+        author: markusoberlehner
+
+      - title: "Dynamic Vue.js Layout Components"
+        link: https://markus.oberlehner.net/blog/dynamic-vue-layout-components/
+        date: 2018-06-17
+        author: markusoberlehner
+
+      - title: "Building Landing Pages with Vue.js and a Headless CMS"
+        link: https://markus.oberlehner.net/blog/building-landing-pages-with-vue-and-a-headless-cms/
+        date: 2018-06-24
+        author: markusoberlehner
 ---
 
 ## {{ page.title }}
