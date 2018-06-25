@@ -20,6 +20,11 @@ collections:
         date: 2018-06-17
         author: manuelwieser
 
+      - title: "A/B Testing Using Google Analytics"
+        link: https://dev.karriere.at/a/google-analytics-ab-testing
+        date: 2018-06-25
+        author: manuelwieser
+
       - title: "Wordpress as CMS for your JAMStack sites"
         link: https://fettblog.eu/wordpress-and-jamstack-sites/
         date: 2018-01-08
