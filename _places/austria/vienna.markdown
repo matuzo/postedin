@@ -4,9 +4,14 @@ country: "Austria"
 collections:
   - year: "2018"
     posts:
+      - title: "Connection-Aware Components"
+        link: https://mxb.at/blog/connection-aware-components/
+        date: 2018-07-02
+        author: maxboeck
+    
       - title: "CSS Grid Admin Dashboard"
         link: https://mxb.at/blog/css-grid-admin-dashboard
-        date: 2018-04-18
+        date: 2018-04-28
         author: maxboeck
 
       - title: "The Layouts of Tomorrow"
@@ -75,6 +80,21 @@ collections:
         link: https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9
         date: 2017-02-12
         author: manuelmatuzovic
+        
+      - title: "Building Skeleton Screens with CSS Custom Properties"
+        link: https://css-tricks.com/building-skeleton-screens-css-custom-properties/
+        date: 2017-08-30
+        author: maxboeck
+
+      - title: "Offline-Friendly Forms"
+        link: https://mxb.at/blog/offline-forms/
+        date: 2017-08-23
+        author: maxboeck
+        
+      - title: "How to turn your website into a PWA"
+        link: https://mxb.at/blog/how-to-turn-your-website-into-a-pwa/
+        date: 2017-07-07
+        author: maxboeck
   - year: "2016"
     posts:
       - title: "Wenn Pattern Libraries wachsen – Wie man Verantwortung und Code für Patterns im Unternehmen verteilt"
