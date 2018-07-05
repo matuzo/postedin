@@ -94,6 +94,11 @@ collections:
         link: https://markus.oberlehner.net/blog/building-landing-pages-with-vue-and-a-headless-cms/
         date: 2018-06-24
         author: markusoberlehner
+        
+      - title: "Feature flags in Laravel"
+        link: https://johannespichler.com/feature-flags-in-laravel/
+        date: 2018-07-04
+        author: johannespichler
 ---
 
 ## {{ page.title }}
