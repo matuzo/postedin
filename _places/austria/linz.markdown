@@ -24,6 +24,11 @@ collections:
         link: https://dev.karriere.at/a/google-analytics-ab-testing
         date: 2018-06-25
         author: manuelwieser
+        
+      - title: "Introducing “Japanese Phrasebook”"
+        link: https://manu.ninja/introducing-japanese-phrasebook
+        date: 2018-08-07
+        author: manuelwieser
 
       - title: "Wordpress as CMS for your JAMStack sites"
         link: https://fettblog.eu/wordpress-and-jamstack-sites/
