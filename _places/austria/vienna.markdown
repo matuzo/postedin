@@ -4,6 +4,11 @@ country: "Austria"
 collections:
   - year: "2018"
     posts:
+      - title: "The Hurricane Web"
+        link: https://mxb.at/blog/hurricane-web/
+        date: 2018-09-16
+        author: maxboeck
+
       - title: "Connection-Aware Components"
         link: https://mxb.at/blog/connection-aware-components/
         date: 2018-07-02
