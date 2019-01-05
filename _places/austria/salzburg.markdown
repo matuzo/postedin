@@ -4,6 +4,11 @@ country: "Austria"
 collections:
   - year: "2018"
     posts:
+      - title: Handling Touch with VueJs
+        link: https://lisilinhart.info/posts/touch-interaction-vue
+        date: 2018-08-20
+        author: lisilinhart
+
       - title: Principles of Mobile User Interfaces
         link: https://medium.com/swlh/principles-of-mobile-user-interfaces-94661cca7c16
         date: 2018-01-14
