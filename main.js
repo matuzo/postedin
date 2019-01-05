@@ -3,8 +3,10 @@ var selected_country = countries.options[countries.selectedIndex].value;
 
 var cities = document.querySelector('.js-cities');
 var city = cities.querySelectorAll('option');
+var all_cities = city;
 
 function getPageContent(e) {
+
   var request = new XMLHttpRequest();
   var selected_city = e ? e.target.value : document.querySelectorAll('[data-country="' + selected_country + '"]')[0].value;
   var url = site_root + '/' + selected_country + '/' + selected_city + '/';
@@ -30,11 +32,18 @@ function getPageContent(e) {
 }
 
 function updateCities() {
+  cities.innerHTML = '';
+  for (var i = 0; i < all_cities.length; i++) {
+    var city = all_cities[i];
+    if (city !== undefined) {
+      cities.appendChild(city)
+    } 
+  }
+
+  city = cities.querySelectorAll('.js-cities option')
   for (var i = 0; i < city.length; i++) {
-    city[i].removeAttribute('hidden');
-    
     if (city[i].dataset.country !== selected_country) {
-      city[i].setAttribute('hidden', true);
+      city[i].remove();
     }
   }
 }
