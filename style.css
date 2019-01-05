@@ -93,6 +93,16 @@ a:hover {
   margin: 0 0 3rem;
 }
 
+.logo__link:link,
+.logo__link:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo__link:hover {
+  color: #ff2884;
+}
+
 .logo__inner {
   color: #ff2884;
 }
