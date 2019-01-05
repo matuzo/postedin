@@ -39,6 +39,11 @@ collections:
         date: 2018-02-06
         author: manuelmatuzovic
 
+      - title: "I Threw Away my Mouse"
+        link: https://www.24a11y.com/2018/i-threw-away-my-mouse/
+        date: 2018-12-16
+        author: manuelmatuzovic
+
       - title: "Wie man als Speaker auf Konferenzen startet, Teil 2 – Vortrag, die Hürde Englisch und das Fazit"
         language: "German"
         link: https://www.zeichenschatz.net/persoenliches/wie-man-als-speaker-auf-konferenzen-startet-teil-2-vortrag-die-huerde-englisch-und-das-fazit.html
@@ -53,6 +58,26 @@ collections:
       - title: "How to use Quotes and Dashes in Russian Typography"
         link: https://www.zeichenschatz.net/typografie/how-to-use-quotes-and-dashes-in-russian-typography.html
         date: 2018-06-15
+        author: oliverschoendorfer
+
+      - title: "My first Chalkboard Lettering – How I did it and what I learned from it"
+        link: https://www.zeichenschatz.net/typografie/my-first-chalkboard-lettering-how-i-did-it-and-what-i-learned-from-it.html
+        date: 2018-06-25
+        author: oliverschoendorfer
+
+      - title: "Implementing a variable font with fallback web fonts"
+        link: https://www.zeichenschatz.net/typografie/implementing-a-variable-font-with-fallback-web-fonts.html
+        date: 2018-10-29
+        author: oliverschoendorfer
+
+      - title: "Tipps zur Bewerbung für ein Praktikum bei Design Agenturen"
+        link: https://www.zeichenschatz.net/design/tipps-zur-bewerbung-fuer-ein-praktikum-bei-design-agenturen.html
+        date: 2018-11-16
+        author: oliverschoendorfer
+
+      - title: "Real small caps and other OpenType Features in Apple Pages, Keynote and Numbers"
+        link: https://www.zeichenschatz.net/typografie/real-small-caps-and-other-opentype-features-in-apple-pages-keynote-and-numbers.html
+        date: 2018-11-23
         author: oliverschoendorfer
   - year: "2017"
     posts:
