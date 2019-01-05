@@ -9,7 +9,7 @@ lisilinhart:
     url: "https://lisilinhart.info"
 manuelmatuzovic:
     name: "Manuel Matuzovic"
-    url: "https://twitter.com/mmatuzo"
+    url: "https://matuzo.at"
 manuelwieser:
     name: "Manuel Wieser"
     url: "https://manu.ninja/"
@@ -28,4 +28,13 @@ stefanbaumgartner:
 stefanjudis:
     name: "Stefan Judis"
     url: "https://www.stefanjudis.com"
+marcusherrmann:
+    name: "Marcus Herrmann"
+    url: "https://marcus.io/"
+hiddedevries:
+    name: "Hidde de Vries"
+    url: "https://hiddedevries.nl/"
+charlieowen:
+    name: "Charlie Owen"
+    url: "https://www.sonniesedge.co.uk/posts"
 
