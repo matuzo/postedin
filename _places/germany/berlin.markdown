@@ -2,24 +2,68 @@
 title: "Berlin"
 country: "Germany"
 collections:
+  - year: "2019"
+    posts:
+      - title: Monthly Digest - December 2018
+        link: https://www.stefanjudis.com/blog/monthly-digest-december-2018/
+        date: 2019-01-04
+        author: stefanjudis
+
+      - title: 2018 in review, outlook to 2019
+        link: https://marcus.io/blog/2018-in-review-outlook-2019
+        date: 2019-01-02
+        author: marcusherrmann
   - year: "2018"
     posts:
+      - title: Develop, edit & deploy websites entirely in the cloud with the CodeSandbox, Contentful and Netlify trio
+        link: https://www.stefanjudis.com/blog/develop-edit-and-deploy-websites-entirely-in-the-cloud-with-the-codesandbox/
+        date: 2018-08-07
+        author: stefanjudis
+
+      - title: Three input element properties that I discovered while reading MDN
+        link: https://www.stefanjudis.com/blog/three-input-element-properties-that-i-discovered-while-reading-mdn/
+        date: 2018-09-02
+        author: stefanjudis
+
       - title: Faster static site builds Part 1- Process only what you need
         link: https://www.stefanjudis.com/blog/faster-static-site-builds-part-1-process-only-what-you-need/
         date: 2018-05-17
         author: stefanjudis
+
       - title: Accessing the DOM is not equal accessing the DOM – live vs. static element collections
         link: https://www.stefanjudis.com/blog/accessing-the-dom-is-not-equal-accessing-the-dom/
         date: 2018-03-22
         author: stefanjudis
+
       - title: The new era of static sites – how JavaScript powers everything
         link: https://www.stefanjudis.com/blog/the-new-era-of-static-sites-how-javascript-powers-everything/
         date: 2018-03-11
         author: stefanjudis
+
       - title: How to write reusable sane API-based Preact, React or Vue.js components using the Render Props pattern
         link: https://www.stefanjudis.com/blog/how-to-write-reusable-sane-api-based-preact-react-or-vue-js-components/
         date: 2018-01-23
         author: stefanjudis
+
+      - title: Getting started with data science tools
+        link: https://www.sonniesedge.co.uk/posts/data-science-tools
+        date: 2018-02-04
+        author: charlieowen
+
+      - title: Removing Site Tracking
+        link: https://www.sonniesedge.co.uk/posts/removing-site-tracking
+        date: 2018-08-03
+        author: charlieowen
+
+      - title: It's time to say goodbye to Twitter
+        link: https://www.sonniesedge.co.uk/posts/abandon-twitter
+        date: 2018-09-03
+        author: charlieowen
+
+      - title: The mysterious case of missing URLs and Google's AMP
+        link: https://www.sonniesedge.co.uk/posts/amp-urls
+        date: 2018-09-05
+        author: charlieowen
 ---
 
 ## {{ page.title }}
