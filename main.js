@@ -6,7 +6,6 @@ var city = cities.querySelectorAll('option');
 var all_cities = city;
 
 function getPageContent(e) {
-
   var request = new XMLHttpRequest();
   var selected_city = e ? e.target.value : document.querySelectorAll('[data-country="' + selected_country + '"]')[0].value;
   var url = site_root + '/' + selected_country + '/' + selected_city + '/';
@@ -22,6 +21,13 @@ function getPageContent(e) {
       resp = 'Sorry, there\'s no data associated with this city :(';
     }
     page_content.innerHTML = resp;
+    var heading = page_content.querySelector('h2');
+    var city = page_content.querySelector('h2').textContent;
+    heading.textContent = '';
+    heading.setAttribute('role', 'alert');
+    heading.setAttribute('aria-live', 'assertive');
+    document.title = "Articles posted in " + city;
+    heading.innerHTML = "<span class='visually-hidden'>Articles posted in</span>&nbsp;" + city;
   };
 
   request.onerror = function() {
