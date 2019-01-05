@@ -50,6 +50,36 @@ collections:
         date: 2018-03-14
         author: stefanbaumgartner
 
+      - title: "FAQ on our Angular Connect Talk: Automating UI development"
+        link: https://fettblog.eu/angular-connect/
+        date: 2018-11-08
+        author: stefanbaumgartner
+
+      - title: "Getting your CfP application right"
+        link: https://fettblog.eu/rock-the-cfp/
+        date: 2018-11-14
+        author: stefanbaumgartner
+
+      - title: "JSX is syntactic sugar"
+        link: https://fettblog.eu/jsx-syntactic-sugar/
+        date: 2018-11-21
+        author: stefanbaumgartner
+
+      - title: "TypeScript: Type predicates"
+        link: https://fettblog.eu/typescript-type-predicates/
+        date: 2018-11-29
+        author: stefanbaumgartner
+
+      - title: "TypeScript: Built-in generic types"
+        link: https://fettblog.eu/typescript-built-in-generics/
+        date: 2018-12-12
+        author: stefanbaumgartner
+
+      - title: "My most favourite talks in 2018"
+        link: https://fettblog.eu/top-talks-to-watch-2018/
+        date: 2018-12-27
+        author: stefanbaumgartner
+
       - title: "TypeScript and Substitutability"
         link: https://fettblog.eu/typescript-substitutability/
         date: 2018-03-16
@@ -99,6 +129,146 @@ collections:
         link: https://markus.oberlehner.net/blog/building-landing-pages-with-vue-and-a-headless-cms/
         date: 2018-06-24
         author: markusoberlehner
+
+      - title: "How to Pre-render Vue.js Powered Websites With webpack"
+        link: https://markus.oberlehner.net/blog/how-to-pre-render-vue-powered-websites-with-webpack/
+        date: 2018-07-01
+        author: markusoberlehner
+        
+      - title: "Building a Pre-Rendered Website With Nuxt.js and Storyblok"
+        link: https://markus.oberlehner.net/blog/building-a-pre-rendered-website-with-nuxt-and-storyblok/
+        date: 2018-07-08
+        author: markusoberlehner
+        
+      - title: "Building a Custom Storyblok Field Type Plugin With Vue.js"
+        link: https://markus.oberlehner.net/blog/building-a-custom-storyblok-field-type-plugin-with-vue/
+        date: 2018-07-15
+        author: markusoberlehner
+        
+      - title: "Building a Website with Vue.js, the Storyblok Visual Editor and Netlify"
+        link: https://markus.oberlehner.net/blog/building-a-website-with-vue-the-storyblok-visual-editor-and-netlify/
+        date: 2018-07-22
+        author: markusoberlehner
+        
+      - title: "Lazy Loading Responsive Images with Vue.js"
+        link: https://markus.oberlehner.net/blog/lazy-loading-responsive-images-with-vue/
+        date: 2018-07-29
+        author: markusoberlehner
+        
+      - title: "Building a Serverless Comment System with Netlify Functions, Storyblok and Vue.js"
+        link: https://markus.oberlehner.net/blog/building-a-serverless-comment-system-with-netlify-functions-storyblok-and-vue/
+        date: 2018-08-05
+        author: markusoberlehner
+        
+      - title: "Automatic SPA FTP Deploys with CircleCI"
+        link: https://markus.oberlehner.net/blog/automatic-spa-ftp-deploys-with-circleci/
+        date: 2018-08-12
+        author: markusoberlehner
+        
+      - title: "Building a Simple Ken Burns Slider with Vue.js"
+        link: https://markus.oberlehner.net/blog/building-a-simple-ken-burns-slider-with-vue/
+        date: 2018-08-19
+        author: markusoberlehner
+        
+      - title: "Implementing a Simple Middleware with Vue Router"
+        link: https://markus.oberlehner.net/blog/implementing-a-simple-middleware-with-vue-router/
+        date: 2018-08-26
+        author: markusoberlehner
+        
+      - title: "Using Docker to run BackstopJS Powered Visual Regression Tests"
+        link: https://markus.oberlehner.net/blog/using-docker-to-run-backstopjs-powered-visual-regression-tests/
+        date: 2018-09-02
+        author: markusoberlehner
+        
+      - title: "Creating a Responsive Alternating Two Column Layout with Flexbox"
+        link: https://markus.oberlehner.net/blog/creating-a-responsive-alternating-two-column-layout-with-flexbox/
+        date: 2018-09-09
+        author: markusoberlehner
+        
+      - title: "Using Cloudinary and Storyblok to Handle Assets for a Vue.js Application"
+        link: https://markus.oberlehner.net/blog/using-cloudinary-and-storyblok-to-handle-assets-for-a-vue-application/
+        date: 2018-09-14
+        author: markusoberlehner
+        
+      - title: "Implementing a GDPR Consent Workflow with Vue.js"
+        link: https://markus.oberlehner.net/blog/implementing-a-gdpr-consent-workflow-with-vue/
+        date: 2018-09-23
+        author: markusoberlehner
+        
+      - title: "How the BEM CSS Naming Scheme Can Improve Vue.js Component Architecture"
+        link: https://markus.oberlehner.net/blog/how-the-bem-css-naming-scheme-can-improve-vue-component-architecture/
+        date: 2018-09-30
+        author: markusoberlehner
+        
+      - title: "Thoughts About Design Systems and Naming Things"
+        link: https://markus.oberlehner.net/blog/thoughts-about-design-systems-and-naming-things/
+        date: 2018-10-07
+        author: markusoberlehner
+        
+      - title: "Poor Man's Container Queries: Hide Content Based on the Width of Its Container"
+        link: https://markus.oberlehner.net/blog/poor-mans-container-queries-hide-content-based-on-the-width-of-its-container/
+        date: 2018-10-14
+        author: markusoberlehner
+        
+      - title: "Creating PDF Invoices with Airtable, Vue.js and Puppeteer"
+        link: https://markus.oberlehner.net/blog/creating-pdf-invoices-with-airtable-vue-and-puppeteer/
+        date: 2018-10-21
+        author: markusoberlehner
+        
+      - title: "Using Location Data with Vue.js and Open Street Map"
+        link: https://markus.oberlehner.net/blog/using-location-data-with-vue-and-open-street-map/
+        date: 2018-10-28
+        author: markusoberlehner
+        
+      - title: "Skeleton Loading Animation with Vue.js"
+        link: https://markus.oberlehner.net/blog/skeleton-loading-animation-with-vue/
+        date: 2018-11-04
+        author: markusoberlehner
+        
+      - title: "Building a Simple Content Slider with Vue.js"
+        link: https://markus.oberlehner.net/blog/building-a-simple-content-slider-with-vue/
+        date: 2018-11-11
+        author: markusoberlehner
+        
+      - title: "Building a Static Site with Storyblok and Gridsome"
+        link: https://markus.oberlehner.net/blog/building-a-static-site-with-storyblok-and-gridsome/
+        date: 2018-11-18
+        author: markusoberlehner
+        
+      - title: "Building a Parallax Scrolling Effect Component with Vue.js"
+        link: https://markus.oberlehner.net/blog/building-a-parallax-scrolling-effect-component-with-vue/
+        date: 2018-11-25
+        author: markusoberlehner
+        
+      - title: "Using the Wrapper Factory Pattern for Vue.js Unit Testing"
+        link: https://markus.oberlehner.net/blog/using-the-wrapper-factory-pattern-for-vue-unit-testing/
+        date: 2018-12-02
+        author: markusoberlehner
+        
+      - title: "Variables in Design Systems"
+        link: https://markus.oberlehner.net/blog/variables-in-design-systems/
+        date: 2018-12-09
+        author: markusoberlehner
+
+      - title: "abomination: a Concept for a Static HTML / Dynamic JavaScript Hybrid Application"
+        link: https://markus.oberlehner.net/blog/abomination-a-concept-for-a-static-html-dynamic-javascript-hybrid-application/
+        date: 2018-12-16
+        author: markusoberlehner
+
+      - title: "Using the Google Maps API with Vue.js"
+        link: https://markus.oberlehner.net/blog/using-the-google-maps-api-with-vue/
+        date: 2018-12-23
+        author: markusoberlehner
+
+      - title: "Lazy Load Vue.js Components When They Become Visible"
+        link: https://markus.oberlehner.net/blog/lazy-load-vue-components-when-they-become-visible/
+        date: 2018-12-30
+        author: markusoberlehner
+
+      - title: "Static route parameters in Laravel"
+        link: https://johannespichler.com/static-route-parameters-in-laravel/
+        date: 2018-08-08
+        author: johannespichler
         
       - title: "Feature flags in Laravel"
         link: https://johannespichler.com/feature-flags-in-laravel/
