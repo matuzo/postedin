@@ -1,6 +1,7 @@
 ---
 title: "Vienna"
 country: "Austria"
+layout: default
 collections:
   - year: "2018"
     posts:

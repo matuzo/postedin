@@ -1,6 +1,7 @@
 ---
 title: "Berlin"
 country: "Germany"
+layout: default
 collections:
   - year: "2019"
     posts:

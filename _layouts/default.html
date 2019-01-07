@@ -5,17 +5,20 @@
 
   <body>
     {%- include header.html -%}
+<div class="js-page-content">
+
     <main>
       {{ content }}
     </main>
+    </div>
     {%- include footer.html -%}
     
     {% comment %} Hideous, I know {% endcomment %}
     {% if jekyll.environment == 'development' %}
-      <script>var site_root = '';</script>
+      <script>var site_root = '//localhost:4000';</script>
     {% else %}
       <script>var site_root = '//matuzo.github.io/postedin';</script>
     {% endif %}
-    <script src="main.js"></script>
+    <script src="/main.js"></script>
   </body>
 </html>

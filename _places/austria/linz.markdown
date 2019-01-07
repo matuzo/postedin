@@ -1,6 +1,7 @@
 ---
 title: "Linz"
 country: "Austria"
+layout: home
 collections:
   - year: "2018"
     posts:

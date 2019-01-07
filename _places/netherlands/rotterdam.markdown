@@ -1,6 +1,7 @@
 ---
 title: "Rotterdam"
 country: "Netherlands"
+layout: default
 collections:
   - year: "2019"
     posts:
