@@ -9,6 +9,10 @@ collections:
         link: https://hiddedevries.nl/en/blog/2019-01-02-return-of-the-blog-roll
         date: 2019-01-02
         author: hiddedevries
+      - title: On the importance of testing with content blockers 
+        link: https://hiddedevries.nl/en/blog/2019-01-07-on-the-importance-of-testing-with-content-blockers
+        date: 2019-01-07
+        author: hiddedevries
 ---
 
 ## {{ page.title }}
