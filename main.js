@@ -50,11 +50,13 @@ function selectCity(e) {
 
 function getActiveCountryAndCity() {
   // get city from url or select
-  if (location.pathname === '/') {
+  var location_params = location.pathname.split('/');
+
+  if (location_params.length < 4) {
     selected_country = countries.options[countries.selectedIndex].value;
     selected_city = cities[0].value;
   } else {
-    var pathname = location.pathname.split('/').filter(function (param) {
+    var pathname = location_params.filter(function (param) {
       return param !== "" && param !== 'postedin';
     });
     selected_country = pathname[0];
