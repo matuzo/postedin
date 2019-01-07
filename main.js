@@ -4,8 +4,6 @@ var city_select = document.querySelector('.js-cities');
 var cities = city_select.querySelectorAll('option');
 var all_cities = cities;
 
-console.log(cities)
-
 var selected_country = '';
 var selected_city = '';
 
@@ -56,9 +54,11 @@ function getActiveCountryAndCity() {
     selected_country = countries.options[countries.selectedIndex].value;
     selected_city = cities[0].value;
   } else {
-    var pathname = location.pathname.split('/');
-    selected_country = pathname[1];
-    selected_city = pathname[2];
+    var pathname = location.pathname.split('/').filter(function (param) {
+      return param !== "" && param !== 'postedin';
+    });
+    selected_country = pathname[0];
+    selected_city = pathname[1];
   }
 }
 
@@ -79,15 +79,11 @@ function updateCitySelect(city) {
     }
   }
 
-  console.log(city)
-
   if (city === undefined) {
     selected_city = city_select[0].value;
   } else {
     selected_city = city;
   }
-
-  console.log(city)
 
   // set correct country and city
   countries.querySelector(`option[value="${selected_country}"]`).setAttribute('selected', 'selected');
