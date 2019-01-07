@@ -1,6 +1,6 @@
 ---
-title: "Rotterdam"
-country: "Netherlands"
+title: "Boston"
+country: "USA"
 layout: default
 collections:
   - year: "2019"
