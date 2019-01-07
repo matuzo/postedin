@@ -78,5 +78,5 @@ bundle install
 
 2. Run jekyll
 ```
-bundle exec jekyll serve
+bundle exec jekyll serve --config "_config.yml,_config_dev.yml"
 ```

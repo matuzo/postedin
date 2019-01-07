@@ -4,6 +4,8 @@ var city_select = document.querySelector('.js-cities');
 var cities = city_select.querySelectorAll('option');
 var all_cities = cities;
 
+console.log(cities)
+
 var selected_country = '';
 var selected_city = '';
 
