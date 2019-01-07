@@ -3,6 +3,12 @@ title: "Vienna"
 country: "Austria"
 layout: default
 collections:
+  - year: "2019"
+    posts:
+      - title: "Static Indieweb Sites: Syndicating Content"
+        link: https://mxb.at/blog/syndicating-content-to-twitter-with-netlify-functions/
+        date: 2019-01-06
+        author: maxboeck
   - year: "2018"
     posts:
       - title: "The Hurricane Web"
@@ -72,6 +78,7 @@ collections:
         author: oliverschoendorfer
 
       - title: "Tipps zur Bewerbung für ein Praktikum bei Design Agenturen"
+        language: "German"
         link: https://www.zeichenschatz.net/design/tipps-zur-bewerbung-fuer-ein-praktikum-bei-design-agenturen.html
         date: 2018-11-16
         author: oliverschoendorfer

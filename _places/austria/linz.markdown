@@ -3,6 +3,12 @@ title: "Linz"
 country: "Austria"
 layout: home
 collections:
+  - year: "2019"
+    posts:
+      - title: "Building a Renderless reCAPTCHA v3 Form Component with Vue.js"
+        link: https://markus.oberlehner.net/blog/building-a-renderless-recaptcha-v3-form-component-with-vue/
+        date: 2019-01-06
+        author: markusoberlehner
   - year: "2018"
     posts:
       - title: "5 Chrome Developer Tools Features You Should Start Using Today"
