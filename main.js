@@ -79,11 +79,15 @@ function updateCitySelect(city) {
     }
   }
 
+  console.log(city)
+
   if (city === undefined) {
     selected_city = city_select[0].value;
   } else {
     selected_city = city;
   }
+
+  console.log(city)
 
   // set correct country and city
   countries.querySelector(`option[value="${selected_country}"]`).setAttribute('selected', 'selected');
@@ -101,6 +105,6 @@ function switchCountryAndCity() {
 }
 
 getActiveCountryAndCity();
-updateCitySelect(selected_city);
+updateCitySelect();
 getPageContent();
 switchCountryAndCity();
