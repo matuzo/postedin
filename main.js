@@ -52,6 +52,8 @@ function getActiveCountryAndCity() {
   // get city from url or select
   var location_params = location.pathname.split('/');
 
+  console.log(location_params.length)
+
   if (location_params.length < 4) {
     selected_country = countries.options[countries.selectedIndex].value;
     selected_city = cities[0].value;
@@ -62,6 +64,9 @@ function getActiveCountryAndCity() {
     selected_country = pathname[0];
     selected_city = pathname[1];
   }
+
+  console.log(selected_country)
+  console.log(selected_city)
 }
 
 function updateCitySelect(city) {
@@ -103,6 +108,6 @@ function switchCountryAndCity() {
 }
 
 getActiveCountryAndCity();
-updateCitySelect();
+updateCitySelect(selected_city);
 getPageContent();
 switchCountryAndCity();
