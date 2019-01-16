@@ -7,15 +7,13 @@ var all_cities = cities;
 var selected_country = '';
 var selected_city = '';
 
-function getPageContent() {
+function getPageContent(callback) {
   var request = new XMLHttpRequest();
   var request_url = site_root + '/' + selected_country + '/' + selected_city + '/';
   var page_content = document.querySelector('.js-page-content');
   var resp = '';
 
   request.open('GET', request_url, true);
-
-  history.pushState({}, selected_city, request_url);
 
   request.onload = function() {
     if (this.status >= 200 && this.status < 400) {
@@ -24,10 +22,11 @@ function getPageContent() {
       resp = 'Sorry, there\'s no data associated with this city :(';
     }
 
+    history.pushState({}, selected_city, request_url);
+
     var container = document.createElement('div');
     container.innerHTML = resp;
 
-    
     page_content.innerHTML = container.querySelector('.js-page-content').innerHTML;
     var heading = page_content.querySelector('h2');
     var city = page_content.querySelector('h2').textContent;
@@ -36,6 +35,8 @@ function getPageContent() {
     heading.setAttribute('aria-live', 'polite');
     document.title = "Articles posted in " + city;
     heading.innerHTML = "<span class='visually-hidden'>Articles posted in </span>" + city;
+
+    if (callback) callback();
   };
 
   request.onerror = function() {
@@ -55,7 +56,6 @@ function getActiveCountryAndCity() {
   var location_params = location.pathname.split('/');
 
   if (location_params.length < 4) {
-    console.log(countries)
     selected_country = countries.options[countries.selectedIndex].value;
   } else {
     var pathname = location_params.filter(function (param) {
@@ -95,6 +95,9 @@ function updateCitySelect(city) {
   // set correct country and city
   countries.querySelector(`option[value="${selected_country}"]`).setAttribute('selected', 'selected');
   city_select.querySelector(`option[value="${selected_city}"]`).setAttribute('selected', 'selected');
+
+  // Fixes bug in Firefox and sets correct value
+  city_select.value  = city_select.querySelector(`option[value="${selected_city}"]`).value;
 }
 
 function switchCountryAndCity() {

@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-<form action="#" role="search">
+<form action="#">
   <p>
     <span class="filter__label">Show me articles posted in</span>
     <label for="country" class="visually-hidden">Country</label>
@@ -12,7 +12,7 @@ layout: layouts/base.njk
     </select>,  
     <label for="city" class="visually-hidden">City</label>
 
-    <select name="" id="city" class="js-cities">
+    <select name="city" id="city" class="js-cities">
       {% for place in collections.places | sortBy("title", "data") %}
         <option data-country="{{ place.data.country | slug }}" value="{{ place.data.title | slug }}">{{ place.data.title }}</option>
       {% endfor %}
