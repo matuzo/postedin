@@ -4,7 +4,10 @@
 
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-{%- set description = "A list of web design and web development related articles by people from" -%}
+{%- set description = "A list of web design and web development related articles by people from all over the world." -%}
+{% if title %}
+  {%- set description = "A list of web design and web development related articles by people from" -%}
+{% endif %}
 
 <meta name="description" content="{{ description }} {{ title }}">
 <meta name="image" content="{{ metadata.url }}/assets/images/smimg.png">
