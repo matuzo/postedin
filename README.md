@@ -24,59 +24,44 @@ There are 3 ways how you can contribute.
 ### Adding authors and cities
 
 1. Fork the repo
-2. Add an author in `_data/authors.yaml` if they don't exist yet.
+2. Add an author in `src/_data/authors.json` if they don't exist yet.
   ```
-  uniqueslug:
-    name: "name"
-    url: "Link to blog or social media"
+  {
+    "key": uniqueslug,
+    "name": Name,
+    "url": "Link to blog or social media"
+  }
   ```
   For example:
   ```
-  manuelmatuzovic:
-    name: "Manuel Matuzovic"
-    url: "https://twitter.com/mmatuzo"
+  {
+    "key": "manuelmatuzovic",
+    "name": "Manuel Matuzovic",
+    "url": "https://matuzo.at"
+  }
   ```
-3. If you country already exists in `_places`, skip to step 4 otherwise add a folder with the name of your country, e.g. `usa`.
-4. If you city already exists in `_places/[COUNTRY]`, skip to step 5 otherwise copy `city.markdown` to your folder and change `title` and `country`.
-5. Add a new entry in your city markdownfile.
+3. If you country already exists in `src/places`, skip to step 4 otherwise add a folder with the name of your country, e.g. `usa`.
+4. If you city already exists in `src/places/[COUNTRY]`, skip to step 5 otherwise copy `city.njk` to your folder and change `title`, `permalink`, and `country`.
+5. Add a new entry in your city file.
 
 ```
-- title: TITLE
-  link: URL
-  language: LANGUAGE (Only if other than English)
-  date: YYYY-MM-DD
-  author: [AUTHORID] (copied form `_data/authors.yaml`)
-```
-
-**Complete example file**
-
-```
----
-title: "Vienna"
-country: "Austria"
-collections:
-  - year: "2018"
-    posts:
-      - title: "My Accessibility Journey: What I’ve Learned So Far"
-        link: https://alistapart.com/article/my-accessibility-journey-what-ive-learned-so-far
-        date: 2018-02-06
-        author: manuelmatuzovic
----
-
-## {{ page.title }}
-
-{%- include posts.html -%}
+{
+  "title": TITLE,
+  "language": LANGUAGE (Only if other than English)
+  "link": URL,
+  "date": "YYYY-MM-DD
+  "author": [authors key] (copied form `src/_data/authors.json`)
+}
 ```
 
 ### Running postedin locally
 
-1. Install jekyll
+1. Install dependecies
 ```
-gem install bundler jekyll
-bundle install
+npm install
 ```
 
-2. Run jekyll
+2. Run the site
 ```
-bundle exec jekyll serve --config "_config.yml,_config_dev.yml"
+npm run start
 ```

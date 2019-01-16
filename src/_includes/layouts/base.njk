@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="site no-js js-site" lang="en" id="top" {% if title %}data-theme="{{ title  | slug }}"{% endif %}>
+  <head>
+    {% include 'head.njk' %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | url | cacheBuster }}" />
+  </head>
+
+  <body class="site__body">
+    {% include 'header.njk' %}
+
+    <main>
+      {{ content | safe }}
+    </main>
+
+    {% include 'footer.njk' %}
+
+    {% if postedin.environment == "development" %}
+      <script>var site_root = 'http://localhost:8081';</script>
+    {% else %}
+      <script>var site_root = 'https://matuzo.github.io/postedin';</script>
+    {% endif %}
+
+    <script src="{{ '/assets/js/index.js' | url | cacheBuster }}"></script>
+  </body>
+</html>

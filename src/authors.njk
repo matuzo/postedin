@@ -1,0 +1,15 @@
+---
+layout: 'layouts/base.njk'
+title: 'Authors'
+---
+
+<ul class="list">
+  {% for author in authors | sortBy("name") %}
+    <li class="list__item">
+      <h3 class="list__heading">{{ author.name }}</h3>
+      <a href="{{ author.url }}" rel="noopener">
+        {{ author.url }}
+      </a>
+    <li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if title %}{{ title }} - {% endif %}{{ metadata.title }}</title>
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+{%- set description = "A list of web design and web development related articles by people from" -%}
+
+<meta name="description" content="{{ description }} {{ title }}">
+<meta name="image" content="{{ metadata.url }}/assets/images/smimg.png">
+<!-- Schema.org for Google -->
+<meta itemprop="name" content="postedin">
+<meta itemprop="description" content="{{ description }} {{ title }}">
+<meta itemprop="image" content="{{ metadata.url }}/assets/images/smimg.png">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="postedin">
+<meta name="twitter:description" content="{{ description }} {{ title }}">
+<meta name="twitter:site" content="@mmatuzo">
+<meta name="twitter:image:src" content="{{ metadata.url }}/assets/images/smimg.png">
+<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+<meta name="og:title" content="postedin">
+<meta name="og:description" content="{{ description }} {{ title }}">
+<meta name="og:image" content="{{ metadata.url }}/assets/images/smimg.png">
+<meta name="og:url" content="https://matuzo.github.io">
+<meta name="og:site_name" content="postedin">
+<meta name="og:locale" content="en_US">
+<meta name="og:type" content="website">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#ff1e83">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ff1e83">
+
+<link rel="stylesheet" href="{{ site.path }}/style.css" />

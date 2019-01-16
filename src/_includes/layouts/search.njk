@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+---
+<form action="#" role="search">
+  <p>
+    <span class="filter__label">Show me articles posted in</span>
+    <label for="country" class="visually-hidden">Country</label>
+    <select name="" id="country" class="js-countries">
+      {% for place in collections.places | uniqueCountry | sortBy("country", "data")%}
+        <option value="{{ place.data.country | slug }}">{{ place.data.country }}</option>
+      {% endfor %}
+    </select>,  
+    <label for="city" class="visually-hidden">City</label>
+
+    <select name="" id="city" class="js-cities">
+      {% for place in collections.places | sortBy("title", "data") %}
+        <option data-country="{{ place.data.country | slug }}" value="{{ place.data.title | slug }}">{{ place.data.title }}</option>
+      {% endfor %}
+    </select>!
+  </p>
+</form>
+
+<div class="js-page-content">
+  <h2>{{ title }}</h2>
+  
+  {% include "posts.njk" %}
+
+  {{ content }}
+</div>

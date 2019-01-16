@@ -1,0 +1,25 @@
+<ol>
+  {%- for group in postsgroup -%}
+  
+    <li>
+      <h3><time datetime="{{ group.year }}">{{ group.year }}</time></h3>
+      <ul>
+        {% for post in group.posts | sortBy("date") | reverse %}
+          <li class="post">
+            <a href="{{ post.link }}" rel="noopener">
+              {{ post.title }}
+            </a>
+
+            <span>
+              on <time datetime="{{ post.date }}">{{ post.date | readableDate }}</time>
+              {% author post.author %}
+              {% if post.language %} ({{ post.language }}){% endif %}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+  {%- endfor -%}
+</ol>
+
+

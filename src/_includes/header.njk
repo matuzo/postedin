@@ -1,0 +1,13 @@
+<h1 class="logo">
+  <a href="/{{ site.path }}" class="logo__link">
+    <span class="logo__inner">
+      {% if layout != "search" and title %}
+        postedin {{ title }}
+      {% else %}
+        {{ metadata.title }}
+      {% endif %}
+    </span> <span aria-hidden="true">_____</span>
+  </a>
+</h1>
+
+<p>A list of web design and web development related articles by people from all over the world. Find out what people from your hometown or any other city are writing about.</p>

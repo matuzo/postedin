@@ -1,0 +1,23 @@
+{
+  "name": "postedin",
+  "version": "0.0.1",
+  "description": "A list of web design and web development related articles by people from all over the world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ELEVENTY_ENV=development npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matuzo/postedin.git"
+  },
+  "author": "Manuel Matuzovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matuzo/postedin/issues"
+  },
+  "homepage": "https://github.com/matuzo/postedin#readme",
+  "devDependencies": {
+    "luxon": "^1.10.0"
+  }
+}
