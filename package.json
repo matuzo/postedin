@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ELEVENTY_ENV=development npx eleventy --serve"
+    "start": "ELEVENTY_ENV=development npx eleventy --serve",
+    "build": "ELEVENTY_ENV=production npx eleventy"
   },
   "repository": {
     "type": "git",
