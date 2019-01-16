@@ -24,6 +24,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('search', 'layouts/search.njk');
   
   eleventyConfig.addPassthroughCopy("./src/assets");
+  eleventyConfig.addPassthroughCopy("./browserconfig.xml");
 
   return {
     templateFormats: [
