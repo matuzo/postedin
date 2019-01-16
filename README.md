@@ -54,7 +54,7 @@ There are 3 ways how you can contribute.
 }
 ```
 
-### Running postedin locally
+## Running postedin locally
 
 1. Install dependecies
 ```
