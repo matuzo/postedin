@@ -17,7 +17,7 @@ module.exports = function(eleventyConfig) {
   // Collections
   eleventyConfig.addCollection("places", function(collection) {
     return collection.getAllSorted().filter(function(item) {
-      if (process.env.ELEVENTY_ENV === 'development' && item.inputPath.match(/\/places\//) !== null) {
+      if (process.env.ELEVENTY_ENV === 'production' && item.inputPath.match(/\/places\//) !== null) {
         const metadata = item.data.metadata;
         const url = `${metadata.url}${item.url}`;
 
