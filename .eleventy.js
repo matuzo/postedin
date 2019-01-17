@@ -1,5 +1,7 @@
 const filters = require('./_eleventy/filters.js')
 const shortcodes = require('./_eleventy/shortcodes.js')
+const feedtemplate = require('./_eleventy/feedtemplate.js')
+const fs = require('fs');
 
 module.exports = function(eleventyConfig) {
   // Filters
@@ -11,10 +13,40 @@ module.exports = function(eleventyConfig) {
   Object.keys(shortcodes).forEach(shortCodeName => {
     eleventyConfig.addShortcode(shortCodeName, shortcodes[shortCodeName])
   });
-  
+
   // Collections
   eleventyConfig.addCollection("places", function(collection) {
     return collection.getAllSorted().filter(function(item) {
+      if (process.env.ELEVENTY_ENV === 'development' && item.inputPath.match(/\/places\//) !== null) {
+        const metadata = item.data.metadata;
+        const url = `${metadata.url}${item.url}`;
+
+        const city = item.fileSlug;
+        const feedName = `${city}.feed.xml`;
+        const folder = item.outputPath.split(`index.html`)[0];
+
+        var stats = fs.statSync(item.inputPath);
+
+        const data = {
+          title: item.data.title,
+          feedUrl: `${url}${feedName}`,
+          url: url,
+          posts: item.data.postsgroup,
+          id: url,
+          authorMail: metadata.author.email,
+          date: new Date(stats.mtime)
+        };
+
+        const template = feedtemplate.xml(data);
+
+        fs.writeFile(`${folder}${feedName}`, template, function(err) {
+          if(err) {
+              return console.log(err);
+          }
+      
+          console.log("The file was saved!");
+        }); 
+      }
       return item.inputPath.match(/\/places\//) !== null;
     })
   });

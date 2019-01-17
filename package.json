@@ -21,5 +21,6 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
     "luxon": "^1.10.0"
-  }
+  },
+  "dependencies": {}
 }

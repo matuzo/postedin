@@ -4,7 +4,7 @@
 
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-{%- set description = "A list of web design and web development related articles by people from all over the world." -%}
+{%- set description = metadata.description -%}
 {% if title %}
   {%- set description = "A list of web design and web development related articles by people from" -%}
 {% endif %}
@@ -37,3 +37,7 @@
 <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#ff1e83">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ff1e83">
+
+{% if country and title %}
+<link type="application/atom+xml" rel="alternate" href="{{ metadata.url }}/{{ country | slug }}/{{ title | slug }}/{{ title | slug }}.feed.xml" title="{{ title }}">
+{% endif %}
