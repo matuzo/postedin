@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Rotterdam</title>
+<link href="https://postedin.io/netherlands/rotterdam/rotterdam.feed.xml" rel="self"/>
+<link href="https://postedin.io/netherlands/rotterdam/"/>
+<updated>Mon Jan 14 2019 20:02:06 GMT+0100 (Central European Standard Time)</updated>
+<id>https://postedin.io/netherlands/rotterdam/</id>
+<author>
+<name>postedin</name>
+<email>manuel@matuzo.at</email>
+</author><entry><title>Return of the blog roll</title><link href="https://hiddedevries.nl/en/blog/2019-01-02-return-of-the-blog-roll"/><updated>2019-01-02</updated><id>https://hiddedevries.nl/en/blog/2019-01-02-return-of-the-blog-roll</id></entry><entry><title>On the importance of testing with content blockers</title><link href="https://hiddedevries.nl/en/blog/2019-01-07-on-the-importance-of-testing-with-content-blockers"/><updated>2019-01-07</updated><id>https://hiddedevries.nl/en/blog/2019-01-07-on-the-importance-of-testing-with-content-blockers</id></entry></feed>

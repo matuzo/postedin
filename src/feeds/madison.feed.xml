@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Madison</title>
+<link href="https://postedin.io/usa/madison/madison.feed.xml" rel="self"/>
+<link href="https://postedin.io/usa/madison/"/>
+<updated>Thu Jan 17 2019 11:38:40 GMT+0100 (Central European Standard Time)</updated>
+<id>https://postedin.io/usa/madison/</id>
+<author>
+<name>postedin</name>
+<email>manuel@matuzo.at</email>
+</author><entry><title>Creating Accessible SVGs</title><link href="https://www.deque.com/blog/creating-accessible-svgs"/><updated>2019-01-10</updated><id>https://www.deque.com/blog/creating-accessible-svgs</id></entry></feed>

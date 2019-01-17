@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Salzburg</title>
+<link href="https://postedin.io/austria/salzburg/salzburg.feed.xml" rel="self"/>
+<link href="https://postedin.io/austria/salzburg/"/>
+<updated>Thu Jan 17 2019 08:22:16 GMT+0100 (Central European Standard Time)</updated>
+<id>https://postedin.io/austria/salzburg/</id>
+<author>
+<name>postedin</name>
+<email>manuel@matuzo.at</email>
+</author><entry><title>The developer’s guide to native web animation</title><link href="https://www.heartinternet.uk/blog/the-developers-guide-to-native-web-animation/"/><updated>2019-01-08</updated><id>https://www.heartinternet.uk/blog/the-developers-guide-to-native-web-animation/</id></entry><entry><title>Handling Touch with VueJs</title><link href="https://lisilinhart.info/posts/touch-interaction-vue"/><updated>2018-08-20</updated><id>https://lisilinhart.info/posts/touch-interaction-vue</id></entry><entry><title>Principles of Mobile User Interfaces</title><link href="https://medium.com/swlh/principles-of-mobile-user-interfaces-94661cca7c16"/><updated>2018-01-14</updated><id>https://medium.com/swlh/principles-of-mobile-user-interfaces-94661cca7c16</id></entry><entry><title>Getting started with GatsbyJS</title><link href="https://medium.com/@lisilinhart/getting-started-with-gatsbyjs-8f1434cbf28e"/><updated>2018-05-09</updated><id>https://medium.com/@lisilinhart/getting-started-with-gatsbyjs-8f1434cbf28e</id></entry></feed>

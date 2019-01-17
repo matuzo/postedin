@@ -39,5 +39,5 @@
 <meta name="theme-color" content="#ff1e83">
 
 {% if country and title %}
-<link type="application/atom+xml" rel="alternate" href="{{ metadata.url }}/{{ country | slug }}/{{ title | slug }}/{{ title | slug }}.feed.xml" title="{{ title }}">
+<link type="application/atom+xml" rel="alternate" href="{{ metadata.url }}/feeds/{{ title | slug }}.feed.xml" title="{{ title }}">
 {% endif %}

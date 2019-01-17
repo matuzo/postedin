@@ -17,14 +17,14 @@ module.exports = function(eleventyConfig) {
   // Collections
   eleventyConfig.addCollection("places", function(collection) {
     return collection.getAllSorted().filter(function(item) {
-      if (process.env.ELEVENTY_ENV === 'production' && item.inputPath.match(/\/places\//) !== null) {
+      if (process.env.ELEVENTY_ENV === 'production' && item.inputPath.match(/\/places\//) !== null ) {
         const metadata = item.data.metadata;
         const url = `${metadata.url}${item.url}`;
 
         const city = item.fileSlug;
         const feedName = `${city}.feed.xml`;
-        const folder = item.outputPath.split(`index.html`)[0];
-
+        // const folder = item.inputPath.split(`.njk`)[0];
+        // console.log(folder)
         var stats = fs.statSync(item.inputPath);
 
         const data = {
@@ -39,7 +39,7 @@ module.exports = function(eleventyConfig) {
 
         const template = feedtemplate.xml(data);
 
-        fs.writeFile(`${folder}${feedName}`, template, function(err) {
+        fs.writeFile(`./src/feeds/${feedName}`, template, function(err) {
           if(err) {
               return console.log(err);
           }
@@ -58,13 +58,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./browserconfig.xml");
   eleventyConfig.addPassthroughCopy("./_redirects");
+  eleventyConfig.addPassthroughCopy("./src/feeds");
 
   return {
     templateFormats: [
       "md",
       "njk",
       "html",
-      "json",
     ],
 
     markdownTemplateEngine: "liquid",

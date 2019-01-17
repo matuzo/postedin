@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Boston</title>
+<link href="https://postedin.io/usa/boston/boston.feed.xml" rel="self"/>
+<link href="https://postedin.io/usa/boston/"/>
+<updated>Wed Jan 16 2019 14:16:20 GMT+0100 (Central European Standard Time)</updated>
+<id>https://postedin.io/usa/boston/</id>
+<author>
+<name>postedin</name>
+<email>manuel@matuzo.at</email>
+</author><entry><title>"Fixing" Lists</title><link href="https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html"/><updated>2019-01-12</updated><id>https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html</id></entry><entry><title>Reader Mode: The Button to Beat</title><link href="https://css-tricks.com/reader-mode-the-button-to-beat/"/><updated>2019-01-07</updated><id>https://css-tricks.com/reader-mode-the-button-to-beat/</id></entry></feed>
