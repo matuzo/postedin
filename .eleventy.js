@@ -25,6 +25,7 @@ module.exports = function(eleventyConfig) {
   
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./browserconfig.xml");
+  eleventyConfig.addPassthroughCopy("./_redirects");
 
   return {
     templateFormats: [
